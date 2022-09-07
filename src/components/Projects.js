@@ -9,7 +9,7 @@ import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
-  const projects = [
+  const projects = [ 
     {
       title: "Business Startup",
       description: "Design & Development",
@@ -24,6 +24,7 @@ export const Projects = () => {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg3,
+      
     },
     {
       title: "Business Startup",

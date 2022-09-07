@@ -35,33 +35,46 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>Using these skills, I have built complex applications that solve big cutomer-centric problems while following standard practices in writing clean, resuable codes. I am also updating my skills with newer technologies. </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="skill1" />
-                                <h5>JavaScript</h5>
+                              <img src={meter1} alt="skill1" />
+                              <h5>JavaScript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="skill2" />
-                                <h5>React</h5>
+                              <img src={meter1} alt="skill2" />
+                              <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="skill3" />
-                                <h5>CSS</h5>
+                              <img src={meter3} alt="skill3" />
+                              <h5>CSS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="skill4" />
-                                <h5>HTML</h5>
+                              <img src={meter1} alt="skill4" />
+                              <h5>HTML</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="skill5" />
-                                <h5>Bootstrap</h5><div className="item">
+                              <img src={meter1} alt="skill5" />
+                              <h5>Bootstrap</h5>
+                            </div>
+                            <div className="item">
+                              <img src={meter2} alt="skill6" />
+                              <h5>Redux</h5>
+                            </div>
+                            <div className="item">
+                              <img src={meter1} alt="skill7" />
+                              <h5>REST API's</h5>
+                            </div>
+                            <div className="item">
+                              <img src={meter2} alt="skill8" />
+                              <h5>TypeScript</h5>
+                            </div>
+                            <div className="item">
+                              <img src={meter1} alt="skill9" />
+                              <h5>Git</h5>
+                            </div>
 
-                                <img src={meter2} alt="skill6" />
-                                <h5>Typescript</h5>
-                            </div>
-
-                            </div>
+                            
                         </Carousel>
                     </div>
                 </div>
